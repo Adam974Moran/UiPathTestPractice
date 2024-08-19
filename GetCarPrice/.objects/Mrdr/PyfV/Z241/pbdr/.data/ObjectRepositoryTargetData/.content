@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="er3pIAQqTU2StN9i1CP9sA" Reference="FNaK0PpuW0KP3kMiF099rg/pbdrlK7v-UK1Mc8Sked92Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://av.by/" CVScreenId="41d1c5c0-9d95-4036-a13d-b340f3f29e62" CvTextArea="211, 647, 53, 17" CvTextArgument="NonCK" CvType="Text" DesignTimeRectangle="185, 631, 318, 50" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' type='text' /&gt;" FuzzyAccuracy="1" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='dropdown__input' placeholder='Поиск' aaname='' /&gt;" Guid="4d7e0f49-8d80-464d-9534-fd1521c10628" ScopeSelectorArgument="&lt;html app='msedge.exe' title='av.by — купить, продать авто в Беларуси. Автомобили с пробегом и новые.' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="842dcf7d4cc57d1979e8dba414393064.png" xmlns="">0rIG9eZ-oP0epDorfKD_gHw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

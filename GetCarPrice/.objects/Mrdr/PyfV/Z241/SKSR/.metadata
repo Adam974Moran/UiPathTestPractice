@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Click On Car Brand",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "SKSRKIfeVkaeRAB3RVkPJQ",
+  "Reference": "FNaK0PpuW0KP3kMiF099rg/SKSRKIfeVkaeRAB3RVkPJQ",
+  "ParentRef": "FNaK0PpuW0KP3kMiF099rg/Z241kkUD5E2LvDF452gm6w",
+  "Created": "2024-08-16T12:18:11.8246177Z",
+  "Updated": "2024-08-16T12:18:11.8246177Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

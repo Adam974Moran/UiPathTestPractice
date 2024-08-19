@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Check App State Using Search Line",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "UAF7QgPh402D8x3EdOUv_g",
+  "Reference": "FNaK0PpuW0KP3kMiF099rg/UAF7QgPh402D8x3EdOUv_g",
+  "ParentRef": "FNaK0PpuW0KP3kMiF099rg/Z241kkUD5E2LvDF452gm6w",
+  "Created": "2024-08-16T12:18:09.7293311Z",
+  "Updated": "2024-08-16T12:18:09.7293311Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

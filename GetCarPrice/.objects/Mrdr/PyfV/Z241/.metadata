@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Car Search",
+  "Type": "Screen",
+  "Id": "Z241kkUD5E2LvDF452gm6w",
+  "Reference": "FNaK0PpuW0KP3kMiF099rg/Z241kkUD5E2LvDF452gm6w",
+  "ParentRef": "FNaK0PpuW0KP3kMiF099rg/PyfVAXeTbkOuPJg8ub_QPg",
+  "Created": "2024-08-16T12:17:54.8575644Z",
+  "Updated": "2024-08-16T12:17:54.8575644Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

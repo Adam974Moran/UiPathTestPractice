@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="wrPTiIYcvEW6JOoTI4G9Sw" Reference="FNaK0PpuW0KP3kMiF099rg/3Vb-pRtcl0ierRz15K-88Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://av.by/" CVScreenId="e0291f95-dc86-4d33-ba53-a3466d923211" CvTextArea="182, 975, 61, 18" CvTextArgument="Abarth" CvType="Text" DesignTimeRectangle="160, 960, 318, 47" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl class='dropdown__listbutton' tag='BUTTON' /&gt;" FuzzyMatches="10000" Guid="4b91f0e5-4e09-4b9b-9206-034c5193f54e" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' title='av.by — купить, продать авто в Беларуси. Автомобили с пробегом и новые.' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e0291f95-dc86-4d33-ba53-a3466d923211" CvTextArea="182, 975, 61, 18" CvType="Text" DesignTimeRectangle="181, 974, 62, 18" ElementType="Text" Guid="d4e1a6a4-4b5b-4947-812a-d9cd02ddbba1" ImageBase64="" SearchSteps="CV" TargetType="ComputerVisionBased">
+            <Target.CvTextArgument>
+              <p:InArgument x:TypeArguments="x:String">
+                <p:CSharpValue x:TypeArguments="x:String">in_CarModel</p:CSharpValue>
+              </p:InArgument>
+            </Target.CvTextArgument>
+          </Target>
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.FuzzySelectorArgument>
+        <p:InArgument x:TypeArguments="x:String">
+          <p:CSharpValue x:TypeArguments="x:String">string.Format("&lt;webctrl class='dropdown__listbutton' tag='BUTTON' type='button' aaname='{0}' check:innerText='{0}' /&gt;", in_CarBrand)</p:CSharpValue>
+        </p:InArgument>
+      </TargetAnchorable.FuzzySelectorArgument>
+      <imageRef attrName="InformativeScreenshot" originalValue="dc5d395a8e10cc386793a85f08f41b1b.png" xmlns="">09L4HOEogFkSkVmTkrPzXeQ</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="2">
+      <ObjectRepositoryVariableData DefaultValue="Любой" IsVariable="False" Name="in_CarBrand" />
+      <ObjectRepositoryVariableData IsVariable="False" Name="in_CarModel" />
+    </scg:List>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

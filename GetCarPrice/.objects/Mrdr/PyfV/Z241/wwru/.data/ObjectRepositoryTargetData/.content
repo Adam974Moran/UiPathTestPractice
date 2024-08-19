@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7UiQrjQ53U66yFcpBaICIA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://av.by/" DesignTimeRectangle="160, 515, 1131, 264" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl class='filter' parentid='__next' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='filter' parentid='__next' tag='DIV' type='' aaname='' check:innerText='Поиск по параметрам&amp;#xD;&amp;#xA;Марка&amp;#xD;&amp;#xA;Марка&amp;#xD;&amp;#xA;Марка&amp;#xD;&amp;#xA;Модель&amp;#xD;&amp;#xA;Модель&amp;#xD;&amp;#xA;Поколение&amp;#xD;&amp;#xA;Поколение&amp;#xD;&amp;#xA;Год от&amp;#xD;&amp;#xA;Год от&amp;#xD;&amp;#xA;до&amp;#xD;&amp;#xA;До&amp;#xD;&amp;#xA;Цена от' /&gt;" Guid="6257a97b-4bb4-4230-8320-6a006cc408d5" ScopeSelectorArgument="&lt;html app='msedge.exe' title='av.by — купить, продать авто в Беларуси. Автомобили с пробегом и новые.' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="51db5e07d296fb8e5488002db26f900c.png" xmlns="">08BRDDM8VmEmP_g8vCqIa1w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScrollSearchedElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,63 @@
+﻿{
+  "Metadata": {
+    "Id": "99b817bd-9dbc-4f62-b67e-aef7b87c8c92",
+    "Kind": "FormIo"
+  },
+  "DesignProperties": {
+    "Title": "UserInputForm",
+    "Theme": "Default",
+    "ShowInTaskbar": true,
+    "ShowMargin": true,
+    "CustomStyle": ""
+  },
+  "Data": {
+    "components": [
+      {
+        "label": "Car Brand:",
+        "labelPosition": "left-left",
+        "placeholder": "Car brand is obligatory: ",
+        "tableView": true,
+        "key": "CarBrand",
+        "type": "textfield",
+        "input": true
+      },
+      {
+        "label": "Car Model:",
+        "labelPosition": "left-left",
+        "tableView": true,
+        "key": "CarModel",
+        "type": "textfield",
+        "input": true
+      },
+      {
+        "label": "Lower Price Limit:",
+        "labelPosition": "left-left",
+        "tableView": true,
+        "key": "LowerPriceLimit",
+        "type": "textfield",
+        "input": true
+      },
+      {
+        "label": "Upper Price Limit:",
+        "labelPosition": "left-left",
+        "tableView": true,
+        "key": "UpperPriceLimit",
+        "type": "textfield",
+        "input": true
+      },
+      {
+        "label": "Submit",
+        "showValidations": false,
+        "disableOnInvalid": true,
+        "tableView": false,
+        "key": "UserInputForm",
+        "properties": {
+          "CarBrand": "String"
+        },
+        "type": "button",
+        "input": true,
+        "saveOnEnter": false
+      }
+    ]
+  }
+}

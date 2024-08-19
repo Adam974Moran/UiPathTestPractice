@@ -1,0 +1,57 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "CarBrand&Sequence_1",
+        "CarModel&Sequence_1",
+        "LowerPriceLimit&Sequence_1",
+        "UpperPriceLimit&Sequence_1",
+        "BrowsingResult&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "BrowseInfoWorkflow.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "DoesElementExist&Sequence_13"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_CarBrand",
+        "in_CarModel",
+        "in_LowerPriceLimit",
+        "in_UpperPriceLimit"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "BrowseCarsWorkflow2.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "DoesSearchLineExists&Sequence_3",
+        "DoesBrandExist&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_UpperPriceLimit",
+        "in_LowerPriceLimit",
+        "in_CarModel",
+        "in_CarBrand"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

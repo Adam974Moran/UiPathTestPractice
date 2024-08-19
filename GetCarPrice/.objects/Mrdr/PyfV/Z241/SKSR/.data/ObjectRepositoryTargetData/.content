@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="n_C9f-DTnkONVll0aFw3ug" Reference="FNaK0PpuW0KP3kMiF099rg/SKSRKIfeVkaeRAB3RVkPJQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://av.by/" CVScreenId="50389a68-975c-4a5f-b924-c830062810c0" CvElementArea="276, 522, 23, 23" CvTextArea="209, 524, 66, 22" CvTextArgument="Mapka" CvType="ArrowButton" DesignTimeRectangle="185, 505, 377, 55" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl name='p-6-0-2-brand' tag='BUTTON' /&gt;" FuzzyAccuracy="1" FuzzySelectorArgument="&lt;webctrl name='p-6-0-2-brand' tag='BUTTON' type='button' class='dropdown__control dropdown-floatlabel' aaname='Марка' /&gt;" Guid="9ba4f757-4bc3-4aa0-8115-1bd0e037d206" ScopeSelectorArgument="&lt;html app='msedge.exe' title='av.by — купить, продать авто в Беларуси. Автомобили с пробегом и новые.' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="50389a68-975c-4a5f-b924-c830062810c0" CvElementArea="276, 522, 23, 23" CvTextArea="209, 524, 66, 22" CvTextArgument="Mapka" CvType="ArrowButton" DesignTimeRectangle="210, 524, 83, 25" ElementType="Text" FullSelectorArgument="&lt;webctrl class='dropdown-floatlabel__value' parentname='p-6-0-2-brand' tag='SPAN' /&gt;" FuzzyAccuracy="1" FuzzySelectorArgument="&lt;webctrl class='dropdown-floatlabel__value' parentname='p-6-0-2-brand' tag='SPAN' type='' aaname=' Марка' check:innerText='Марка' /&gt;" Guid="8b7572c8-99d6-48dc-b147-b5abc2037337" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b8488952b9b59a132139674b73b98b1a.png" xmlns="">0-iXbFEQoT0i1ENMbT-NUAg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

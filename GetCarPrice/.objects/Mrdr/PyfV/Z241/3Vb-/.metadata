@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Check If Such Car Brand Exists",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "3Vb-pRtcl0ierRz15K-88Q",
+  "Reference": "FNaK0PpuW0KP3kMiF099rg/3Vb-pRtcl0ierRz15K-88Q",
+  "ParentRef": "FNaK0PpuW0KP3kMiF099rg/Z241kkUD5E2LvDF452gm6w",
+  "Created": "2024-08-16T13:33:46.1404673Z",
+  "Updated": "2024-08-16T13:33:46.1404673Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

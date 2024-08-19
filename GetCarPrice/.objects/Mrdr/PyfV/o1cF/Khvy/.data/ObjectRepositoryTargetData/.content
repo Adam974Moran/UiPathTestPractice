@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="U79QI-q9Dk2LQssAJeq9TA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://cars.av.by/alfa-romeo" DesignTimeRectangle="184, 338, 1131, 6348" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl class='listing__items' parentid='__next' tag='DIV' /&gt;" Guid="59eb6b2c-7e55-4b39-a02e-39f99257842a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='210 объявлений о продаже Alfa Romeo (Альфа Ромео) с пробегом в Беларуси' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c99b1ed3acd7d7cf69d88bb22cfbc7d7.png" xmlns="">0myrutFGUME-zPq2qTHxk_A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">ExtractData</x:String>
+    <p:InArgument x:TypeArguments="x:String" x:Key="ExtractDataSettings" xml:space="preserve">&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='Car'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='Column2' Name='Url'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;true&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='Column1' Name='Price'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataNextLink' /&gt;
+&lt;/Table&gt;</p:InArgument>
+    <TargetAnchorable x:Key="NextLinkTarget" BrowserURL="https://cars.av.by/alfa-romeo" CVScreenId="167fba2a-c2d1-43a7-a345-8c28b1b3e274" CvElementArea="207, 461, 185, 56" CvTextArea="232, 479, 134, 21" CvTextArgument="Noka3atb eue" CvType="Button" DesignTimeRectangle="209, 462, 182, 53" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Показать ещё' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Показать ещё' tag='A' type='' class='button button--default' check:innerText='Показать ещё' /&gt;" Guid="b0ff7438-0e44-4278-8b14-10dc9a2dcfd2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='av.by' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
