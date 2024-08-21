@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="1408.8,2291.2" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ufa="clr-namespace:UiPath.Forms.Activities;assembly=UiPath.Forms.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="1408.8,4049.6" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -60,6 +60,7 @@
       <x:String>System.Xml.Serialization</x:String>
       <x:String>System.Numerics</x:String>
       <x:String>UiPath.Platform.GlobalVariables</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -135,15 +136,15 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="612.8,2226.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence sap:VirtualizedContainerService.HintSize="883.2,3984.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="550.4,2210.4" sap2010:WorkflowViewState.IdRef="TryCatch_3">
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="820.8,3896" sap2010:WorkflowViewState.IdRef="TryCatch_3">
       <TryCatch.Try>
-        <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="513.6,1979.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+        <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="688,3641.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
           <Sequence.Variables>
             <Variable x:TypeArguments="x:String" Name="CarBrand" />
             <Variable x:TypeArguments="x:String" Name="CarModel" />
@@ -155,13 +156,14 @@
             <Variable x:TypeArguments="s:String[]" Name="MinValueArray" />
             <Variable x:TypeArguments="x:String" Name="MaxValue" />
             <Variable x:TypeArguments="x:String" Name="MinValue" />
+            <Variable x:TypeArguments="x:String" Name="ChosenValue" />
           </Sequence.Variables>
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="UserInputWorkflow - Invoke Workflow File (UserInputWorkflow.xaml)" sap:VirtualizedContainerService.HintSize="451.2,206.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="UserInputWorkflow.xaml">
+          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="UserInputWorkflow - Invoke Workflow File (UserInputWorkflow.xaml)" sap:VirtualizedContainerService.HintSize="625.6,206.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="UserInputWorkflow.xaml">
             <ui:InvokeWorkflowFile.Arguments>
               <OutArgument x:TypeArguments="x:String" x:Key="out_CarBrand">
                 <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_3">CarBrand</CSharpReference>
@@ -177,24 +179,24 @@
               </OutArgument>
             </ui:InvokeWorkflowFile.Arguments>
           </ui:InvokeWorkflowFile>
-          <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="451.2,437.6" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+          <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="625.6,437.6" sap2010:WorkflowViewState.IdRef="TryCatch_2">
             <TryCatch.Try>
               <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="BrowseInfoWorkflow - Invoke Workflow File (BrowseInfoWorkflow.xaml)" sap:VirtualizedContainerService.HintSize="334.4,174.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="BrowseInfoWorkflow.xaml">
                 <ui:InvokeWorkflowFile.Arguments>
-                  <InArgument x:TypeArguments="x:String" x:Key="in_CarBrand">
-                    <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_13">CarBrand</CSharpValue>
+                  <InArgument x:TypeArguments="x:String" x:Key="in_carBrand">
+                    <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_53">CarBrand</CSharpValue>
                   </InArgument>
-                  <InArgument x:TypeArguments="x:String" x:Key="in_CarModel">
-                    <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_14">CarModel</CSharpValue>
+                  <InArgument x:TypeArguments="x:String" x:Key="in_carModel">
+                    <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_54">CarModel</CSharpValue>
                   </InArgument>
-                  <InArgument x:TypeArguments="x:String" x:Key="in_LowerPriceLimit">
-                    <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_15">LowerPriceLimit</CSharpValue>
+                  <InArgument x:TypeArguments="x:String" x:Key="in_lowerPriceLimit">
+                    <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_55">LowerPriceLimit</CSharpValue>
                   </InArgument>
-                  <InArgument x:TypeArguments="x:String" x:Key="in_UpperPriceLimit">
-                    <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_16">UpperPriceLimit</CSharpValue>
+                  <InArgument x:TypeArguments="x:String" x:Key="in_upperPriceLimit">
+                    <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_56">UpperPriceLimit</CSharpValue>
                   </InArgument>
-                  <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_ExtractedDataTable">
-                    <CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_8">ExtractedDataTable</CSharpReference>
+                  <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_extractedDataTable">
+                    <CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_28">ExtractedDataTable</CSharpReference>
                   </OutArgument>
                 </ui:InvokeWorkflowFile.Arguments>
               </ui:InvokeWorkflowFile>
@@ -222,7 +224,7 @@
               </Catch>
             </TryCatch.Catches>
           </TryCatch>
-          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="SearchingForMaxAndMinPricesWorkflow - Invoke Workflow File (SearchingForMaxAndMinPricesWorkflow.xaml)" sap:VirtualizedContainerService.HintSize="451.2,206.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" UnSafe="False" WorkflowFileName="SearchingForMaxAndMinPricesWorkflow.xaml">
+          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="SearchingForMaxAndMinPricesWorkflow - Invoke Workflow File (SearchingForMaxAndMinPricesWorkflow.xaml)" sap:VirtualizedContainerService.HintSize="625.6,206.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" UnSafe="False" WorkflowFileName="SearchingForMaxAndMinPricesWorkflow.xaml">
             <ui:InvokeWorkflowFile.Arguments>
               <InArgument x:TypeArguments="sd:DataTable" x:Key="in_ExtractedDataTable">
                 <CSharpValue x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_22">ExtractedDataTable</CSharpValue>
@@ -235,7 +237,7 @@
               </OutArgument>
             </ui:InvokeWorkflowFile.Arguments>
           </ui:InvokeWorkflowFile>
-          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ExtractingMaxAndMinCarsInfoWorkflow - Invoke Workflow File (ExtractingMaxAndMinCarsInfoWorkflow.xaml)" sap:VirtualizedContainerService.HintSize="451.2,206.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="ExtractingMaxAndMinCarsInfoWorkflow.xaml">
+          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ExtractingMaxAndMinCarsInfoWorkflow - Invoke Workflow File (ExtractingMaxAndMinCarsInfoWorkflow.xaml)" sap:VirtualizedContainerService.HintSize="625.6,206.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="ExtractingMaxAndMinCarsInfoWorkflow.xaml">
             <ui:InvokeWorkflowFile.Arguments>
               <InArgument x:TypeArguments="x:String" x:Key="in_MaxValue">
                 <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_25">MaxValue</CSharpValue>
@@ -254,62 +256,163 @@
               </OutArgument>
             </ui:InvokeWorkflowFile.Arguments>
           </ui:InvokeWorkflowFile>
-          <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="451.2,117.6" sap2010:WorkflowViewState.IdRef="MessageBox_8">
-            <ui:MessageBox.Text>
-              <InArgument x:TypeArguments="x:Object">
-                <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_32">"Max" + System.Environment.NewLine + "\tMark: " + MaxValueArray[0] + " | Price: " + MaxValueArray[MaxValueArray.Length-1] + " | URL: " + MaxValueArray[MaxValueArray.Length-2] + System.Environment.NewLine + System.Environment.NewLine + "Min" + System.Environment.NewLine + "\tMark: " + MinValueArray[0] + " | Price: " + MinValueArray[MinValueArray.Length-1] + " | URL: " + MinValueArray[MinValueArray.Length-2]</CSharpValue>
-              </InArgument>
-            </ui:MessageBox.Text>
-          </ui:MessageBox>
-          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="451.2,315.2" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="625.6,308" sap2010:WorkflowViewState.IdRef="CommentOut_1">
             <ui:CommentOut.Body>
-              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,204.8" sap2010:WorkflowViewState.IdRef="Sequence_4">
+              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,197.6" sap2010:WorkflowViewState.IdRef="Sequence_14">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <ui:EnableTrigger DisplayName="Enable Local Trigger" sap:VirtualizedContainerService.HintSize="353.6,116" sap2010:WorkflowViewState.IdRef="EnableTrigger_2" TriggerId="fdba9d79-8cde-474d-8b1d-b2bd4d45107e" />
+                <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="353.6,108.8" sap2010:WorkflowViewState.IdRef="MessageBox_8">
+                  <ui:MessageBox.Text>
+                    <InArgument x:TypeArguments="x:Object">
+                      <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_32">"Max" + System.Environment.NewLine + "\tMark: " + MaxValueArray[0] + " | Price: " + MaxValueArray[MaxValueArray.Length-1] + " | URL: " + MaxValueArray[MaxValueArray.Length-2] + System.Environment.NewLine + System.Environment.NewLine + "Min" + System.Environment.NewLine + "\tMark: " + MinValueArray[0] + " | Price: " + MinValueArray[MinValueArray.Length-1] + " | URL: " + MinValueArray[MinValueArray.Length-2]</CSharpValue>
+                    </InArgument>
+                  </ui:MessageBox.Text>
+                </ui:MessageBox>
               </Sequence>
             </ui:CommentOut.Body>
           </ui:CommentOut>
-          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="451.2,400.8" sap2010:WorkflowViewState.IdRef="CommentOut_3">
-            <ui:CommentOut.Body>
-              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,299.2" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="625.6,2188" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_1">
+            <ui:InterruptibleDoWhile.Body>
+              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="592,2050.4" sap2010:WorkflowViewState.IdRef="Sequence_9">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <ufa:ShowFormActivity Height="{x:Null}" InstanceName="{x:Null}" Left="{x:Null}" ShowInTaskbar="{x:Null}" ShowMargin="{x:Null}" Title="{x:Null}" Top="{x:Null}" TopMost="{x:Null}" Width="{x:Null}" WindowState="{x:Null}" DisplayName="Show Form" FormId="4504e086-71f9-4f0c-a4db-c5c1c73f36ec" sap:VirtualizedContainerService.HintSize="353.6,210.4" sap2010:WorkflowViewState.IdRef="ShowFormActivity_3" IsAsync="False">
-                  <ufa:ShowFormActivity.Arguments>
-                    <InOutArgument x:TypeArguments="x:String" x:Key="minCarName">
-                      <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_24">MinValueArray[0]</CSharpReference>
-                    </InOutArgument>
-                    <InOutArgument x:TypeArguments="x:String" x:Key="minCarPrice">
-                      <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_16">MinValueArray[MinValueArray.Length-1]</CSharpReference>
-                    </InOutArgument>
-                    <InOutArgument x:TypeArguments="x:String" x:Key="minCarUrl">
-                      <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_17">MinValueArray[MinValueArray.Length-2]</CSharpReference>
-                    </InOutArgument>
-                    <InOutArgument x:TypeArguments="x:String" x:Key="maxCarName">
-                      <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_18">MaxValueArray[0]</CSharpReference>
-                    </InOutArgument>
-                    <InOutArgument x:TypeArguments="x:String" x:Key="maxCarPrice">
-                      <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_19">MaxValueArray[MaxValueArray.Length-1]</CSharpReference>
-                    </InOutArgument>
-                    <InOutArgument x:TypeArguments="x:String" x:Key="maxCarUrl">
-                      <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_20">MaxValueArray[MaxValueArray.Length-2]</CSharpReference>
-                    </InOutArgument>
-                  </ufa:ShowFormActivity.Arguments>
-                </ufa:ShowFormActivity>
+                <ui:InputDialog Options="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="529.6,327.2" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" OptionsString="Show Min Price Car;Show Max Price Car;Close" Title="Choose Car">
+                  <ui:InputDialog.Label>
+                    <InArgument x:TypeArguments="x:String">
+                      <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_52">"Mark: " + MaxValueArray[0] + " | Price: " + MaxValueArray[MaxValueArray.Length-1] + System.Environment.NewLine + "Mark: " + MinValueArray[0] + " | Price: " + MinValueArray[MinValueArray.Length-1]</CSharpValue>
+                    </InArgument>
+                  </ui:InputDialog.Label>
+                  <ui:InputDialog.Result>
+                    <OutArgument x:TypeArguments="x:String">
+                      <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_27">ChosenValue</CSharpReference>
+                    </OutArgument>
+                  </ui:InputDialog.Result>
+                </ui:InputDialog>
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="529.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info">
+                  <ui:LogMessage.Message>
+                    <InArgument x:TypeArguments="x:Object">
+                      <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_45">"Choice: " + ChosenValue</CSharpValue>
+                    </InArgument>
+                  </ui:LogMessage.Message>
+                </ui:LogMessage>
+                <If sap:VirtualizedContainerService.HintSize="529.6,714.4" sap2010:WorkflowViewState.IdRef="If_4">
+                  <If.Condition>
+                    <InArgument x:TypeArguments="x:Boolean">
+                      <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_40">ChosenValue.Equals("Show Min Price Car")</CSharpValue>
+                    </InArgument>
+                  </If.Condition>
+                  <If.Then>
+                    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="496,519.2" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info">
+                        <ui:LogMessage.Message>
+                          <InArgument x:TypeArguments="x:Object">
+                            <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_47">"Url: " + MinValueArray[MinValueArray.Length-2]</CSharpValue>
+                          </InArgument>
+                        </ui:LogMessage.Message>
+                      </ui:LogMessage>
+                      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome Новая вкладка" sap:VirtualizedContainerService.HintSize="433.6,256" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="3f8cf791-7c62-4e9f-8867-1946270c80a2" Version="V2" WindowResize="Maximize">
+                        <uix:NApplicationCard.Body>
+                          <ActivityAction x:TypeArguments="x:Object">
+                            <ActivityAction.Argument>
+                              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                            </ActivityAction.Argument>
+                          </ActivityAction>
+                        </uix:NApplicationCard.Body>
+                        <uix:NApplicationCard.TargetApp>
+                          <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="Frrgw71cA0GhJgpNXFY8Ng" IconBase64="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" InformativeScreenshot="050de1c1b43fe821016205d703e2a3f5.png" Reference="FNaK0PpuW0KP3kMiF099rg/SmatC2GgL0iHQOQ_Chn3BQ" Selector="&lt;html app='chrome.exe' title='Новая вкладка' /&gt;" Title="Новая вкладка">
+                            <uix:TargetApp.Url>
+                              <InArgument x:TypeArguments="x:String">
+                                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_48">MinValueArray[MinValueArray.Length-2]</CSharpValue>
+                              </InArgument>
+                            </uix:TargetApp.Url>
+                          </uix:TargetApp>
+                        </uix:NApplicationCard.TargetApp>
+                      </uix:NApplicationCard>
+                    </Sequence>
+                  </If.Then>
+                  <If.Else>
+                    <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,24.8" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </Sequence>
+                  </If.Else>
+                </If>
+                <If sap:VirtualizedContainerService.HintSize="529.6,745.6" sap2010:WorkflowViewState.IdRef="If_3">
+                  <If.Condition>
+                    <InArgument x:TypeArguments="x:Boolean">
+                      <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_51">ChosenValue.Equals("Show Max Price Car")</CSharpValue>
+                    </InArgument>
+                  </If.Condition>
+                  <If.Then>
+                    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="496,559.2" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info">
+                        <ui:LogMessage.Message>
+                          <InArgument x:TypeArguments="x:Object">
+                            <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_50">"Url: " + MaxValueArray[MaxValueArray.Length-2]</CSharpValue>
+                          </InArgument>
+                        </ui:LogMessage.Message>
+                      </ui:LogMessage>
+                      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome Новая вкладка(1)" sap:VirtualizedContainerService.HintSize="433.6,296" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="3f8cf791-7c62-4e9f-8867-1946270c80a2" Version="V2" WindowResize="Maximize">
+                        <uix:NApplicationCard.Body>
+                          <ActivityAction x:TypeArguments="x:Object">
+                            <ActivityAction.Argument>
+                              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                            </ActivityAction.Argument>
+                          </ActivityAction>
+                        </uix:NApplicationCard.Body>
+                        <uix:NApplicationCard.TargetApp>
+                          <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" ContentHash="yVpxHmFG9keUliV7xSxb9g" IconBase64="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" InformativeScreenshot="050de1c1b43fe821016205d703e2a3f5.png" Reference="FNaK0PpuW0KP3kMiF099rg/5zgDUknTMkC93_EeNrS-pA" Selector="&lt;html app='chrome.exe' title='Новая вкладка' /&gt;" Title="Новая вкладка">
+                            <uix:TargetApp.Url>
+                              <InArgument x:TypeArguments="x:String">
+                                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_43">MaxValueArray[MaxValueArray.Length-2]</CSharpValue>
+                              </InArgument>
+                            </uix:TargetApp.Url>
+                          </uix:TargetApp>
+                        </uix:NApplicationCard.TargetApp>
+                      </uix:NApplicationCard>
+                    </Sequence>
+                  </If.Then>
+                  <If.Else>
+                    <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,24.8" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </Sequence>
+                  </If.Else>
+                </If>
               </Sequence>
-            </ui:CommentOut.Body>
-          </ui:CommentOut>
+            </ui:InterruptibleDoWhile.Body>
+            <ui:InterruptibleDoWhile.Condition>
+              <CSharpValue x:TypeArguments="x:Boolean" DisplayName="C sharp value" sap2010:WorkflowViewState.IdRef="CSharpValue`1_44">!ChosenValue.Equals("Close")</CSharpValue>
+            </ui:InterruptibleDoWhile.Condition>
+          </ui:InterruptibleDoWhile>
         </Sequence>
       </TryCatch.Try>
       <TryCatch.Catches>
-        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="516.8,23.2" sap2010:WorkflowViewState.IdRef="Catch`1_3">
+        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="787.2,23.2" sap2010:WorkflowViewState.IdRef="Catch`1_3">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">False</x:Boolean>

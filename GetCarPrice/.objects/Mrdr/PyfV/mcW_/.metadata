@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Новая вкладка(2)",
+  "Type": "Screen",
+  "Id": "mcW_53J-Y0a1QcT6r9LCvA",
+  "Reference": "FNaK0PpuW0KP3kMiF099rg/mcW_53J-Y0a1QcT6r9LCvA",
+  "ParentRef": "FNaK0PpuW0KP3kMiF099rg/PyfVAXeTbkOuPJg8ub_QPg",
+  "Created": "2024-08-21T09:53:13.373572Z",
+  "Updated": "2024-08-21T09:53:13.373572Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

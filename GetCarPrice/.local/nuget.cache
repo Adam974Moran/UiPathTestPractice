@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "f2Up5ngz5n7VsX1BYRtf0vya63iqWCXDeZi+Rao5XYoY/Mp5/JcGB9TE/iJ9BgK0TGn15RFwSN4texjeMQ/F3A==",
+  "dgSpecHash": "R02OdMhPKwlUMgXalcUgNYhrc/W4dJdiGm2+qLF1cfSw4RbN7uBvYEd0M6HmUAM76IclGOsTfuy5In0mR9FPvg==",
   "success": true,
   "projectFilePath": "C:\\Users\\NIKT\\Documents\\UiPathTestPractice\\GetCarPrice\\.local\\",
   "expectedPackageFiles": [
@@ -63,7 +63,7 @@
     "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.management.infrastructure.runtime.unix\\3.0.0\\microsoft.management.infrastructure.runtime.unix.3.0.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.management.infrastructure.runtime.win\\3.0.0\\microsoft.management.infrastructure.runtime.win.3.0.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
-    "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.netcore.windows.apisets\\1.0.1\\microsoft.netcore.windows.apisets.1.0.1.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.powershell.commands.diagnostics\\7.2.15\\microsoft.powershell.commands.diagnostics.7.2.15.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.powershell.commands.management\\7.2.15\\microsoft.powershell.commands.management.7.2.15.nupkg.sha512",
@@ -140,7 +140,7 @@
     "C:\\Users\\NIKT\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\runtime.win.microsoft.win32.primitives\\4.3.0\\runtime.win.microsoft.win32.primitives.4.3.0.nupkg.sha512",
-    "C:\\Users\\NIKT\\.nuget\\packages\\runtime.win.system.console\\4.3.0\\runtime.win.system.console.4.3.0.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\runtime.win.system.console\\4.3.1\\runtime.win.system.console.4.3.1.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\runtime.win.system.diagnostics.debug\\4.3.0\\runtime.win.system.diagnostics.debug.4.3.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\runtime.win.system.io.filesystem\\4.3.0\\runtime.win.system.io.filesystem.4.3.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\runtime.win.system.net.primitives\\4.3.0\\runtime.win.system.net.primitives.4.3.0.nupkg.sha512",
@@ -217,7 +217,7 @@
     "C:\\Users\\NIKT\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\system.resources.extensions\\5.0.0\\system.resources.extensions.5.0.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
-    "C:\\Users\\NIKT\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\system.runtime\\4.3.1\\system.runtime.4.3.1.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\system.runtime.caching\\6.0.0\\system.runtime.caching.6.0.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",
@@ -253,7 +253,7 @@
     "C:\\Users\\NIKT\\.nuget\\packages\\system.text.encoding.extensions\\4.3.0\\system.text.encoding.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\system.text.json\\5.0.2\\system.text.json.5.0.2.nupkg.sha512",
-    "C:\\Users\\NIKT\\.nuget\\packages\\system.text.regularexpressions\\4.3.0\\system.text.regularexpressions.4.3.0.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\system.text.regularexpressions\\4.3.1\\system.text.regularexpressions.4.3.1.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\system.threading.accesscontrol\\6.0.0\\system.threading.accesscontrol.6.0.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512",
@@ -267,7 +267,7 @@
     "C:\\Users\\NIKT\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\NIKT\\.nuget\\packages\\uipath\\24.10.93.21985\\uipath.24.10.93.21985.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\uipath\\24.10.94.62718\\uipath.24.10.94.62718.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.6\\uipath.activities.runtimegovernance.1.1.6.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\uipath.codedworkflows\\24.10.0\\uipath.codedworkflows.24.10.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\uipath.connectionclient\\2.0.3\\uipath.connectionclient.2.0.3.nupkg.sha512",
@@ -275,9 +275,9 @@
     "C:\\Users\\NIKT\\.nuget\\packages\\uipath.excel.activities\\2.23.4\\uipath.excel.activities.2.23.4.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\uipath.form.activities\\23.4.3\\uipath.form.activities.23.4.3.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\uipath.formactivitylibrary.contracts\\2.0.7\\uipath.formactivitylibrary.contracts.2.0.7.nupkg.sha512",
-    "C:\\Users\\NIKT\\.nuget\\packages\\uipath.imageprocessing\\23.4.0\\uipath.imageprocessing.23.4.0.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\uipath.imageprocessing\\24.10.0\\uipath.imageprocessing.24.10.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\uipath.mail.activities\\1.23.1\\uipath.mail.activities.1.23.1.nupkg.sha512",
-    "C:\\Users\\NIKT\\.nuget\\packages\\uipath.ocr.activities\\3.20.3\\uipath.ocr.activities.3.20.3.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\uipath.ocr.activities\\3.20.5\\uipath.ocr.activities.3.20.5.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\uipath.ocr.contracts\\2.16.0\\uipath.ocr.contracts.2.16.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\uipath.opentelemetry.contracts\\2.1.3\\uipath.opentelemetry.contracts.2.1.3.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\uipath.persistence.activities\\1.5.9\\uipath.persistence.activities.1.5.9.nupkg.sha512",
@@ -288,54 +288,14 @@
     "C:\\Users\\NIKT\\.nuget\\packages\\uipath.system.activities.runtime.windows\\24.10.3\\uipath.system.activities.runtime.windows.24.10.3.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\uipath.telemetry.client\\2.1.3\\uipath.telemetry.client.2.1.3.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\uipath.testing.activities\\24.10.0\\uipath.testing.activities.24.10.0.nupkg.sha512",
-    "C:\\Users\\NIKT\\.nuget\\packages\\uipath.uiautomation.activities\\24.10.0\\uipath.uiautomation.activities.24.10.0.nupkg.sha512",
-    "C:\\Users\\NIKT\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\24.10.0\\uipath.uiautomation.activities.runtime.24.10.0.nupkg.sha512",
-    "C:\\Users\\NIKT\\.nuget\\packages\\uipath.uiautomation.activities.runtime.design\\24.10.0\\uipath.uiautomation.activities.runtime.design.24.10.0.nupkg.sha512",
-    "C:\\Users\\NIKT\\.nuget\\packages\\uipath.vision\\3.13.2\\uipath.vision.3.13.2.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\uipath.uiautomation.activities\\24.10.3\\uipath.uiautomation.activities.24.10.3.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\24.10.3\\uipath.uiautomation.activities.runtime.24.10.3.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\uipath.uiautomation.activities.runtime.design\\24.10.3\\uipath.uiautomation.activities.runtime.design.24.10.3.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\uipath.vision\\3.13.3\\uipath.vision.3.13.3.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\uipath.webapi.activities\\1.21.0\\uipath.webapi.activities.1.21.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\uipath.webapi.activities.runtime\\1.21.0\\uipath.webapi.activities.runtime.1.21.0.nupkg.sha512"
   ],
   "logs": [
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\NIKT\\Documents\\UiPathTestPractice\\GetCarPrice\\.local",
-      "message": "Failed to retrieve information about 'UiPath.Form.Activities' from remote source 'http://myget.org/FindPackagesById()?id='UiPath.Form.Activities'&semVerLevel=2.0.0'.",
-      "libraryId": "UiPath.Form.Activities"
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\NIKT\\Documents\\UiPathTestPractice\\GetCarPrice\\.local",
-      "message": "Failed to retrieve information about 'UiPath.Form.Activities' from remote source 'http://myget.org/FindPackagesById()?id='UiPath.Form.Activities'&semVerLevel=2.0.0'.",
-      "libraryId": "UiPath.Form.Activities"
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\NIKT\\Documents\\UiPathTestPractice\\GetCarPrice\\.local",
-      "message": "Failed to retrieve information about 'System.Activities.ViewModels' from remote source 'http://myget.org/FindPackagesById()?id='System.Activities.ViewModels'&semVerLevel=2.0.0'.",
-      "libraryId": "System.Activities.ViewModels"
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\NIKT\\Documents\\UiPathTestPractice\\GetCarPrice\\.local",
-      "message": "Failed to retrieve information about 'UiPath.Studio.Forms.Runtime' from remote source 'http://myget.org/FindPackagesById()?id='UiPath.Studio.Forms.Runtime'&semVerLevel=2.0.0'.",
-      "libraryId": "UiPath.Studio.Forms.Runtime"
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\NIKT\\Documents\\UiPathTestPractice\\GetCarPrice\\.local",
-      "message": "Failed to retrieve information about 'UiPath.Platform' from remote source 'http://myget.org/FindPackagesById()?id='UiPath.Platform'&semVerLevel=2.0.0'.",
-      "libraryId": "UiPath.Platform"
-    },
     {
       "code": "NU1801",
       "level": "Warning",
@@ -349,8 +309,112 @@
       "level": "Warning",
       "warningLevel": 1,
       "filePath": "C:\\Users\\NIKT\\Documents\\UiPathTestPractice\\GetCarPrice\\.local",
-      "message": "Failed to retrieve information about 'Microsoft.Web.WebView2' from remote source 'http://myget.org/FindPackagesById()?id='Microsoft.Web.WebView2'&semVerLevel=2.0.0'.",
-      "libraryId": "Microsoft.Web.WebView2"
+      "message": "Failed to retrieve information about 'UiPath.UIAutomation.Activities' from remote source 'http://myget.org/FindPackagesById()?id='UiPath.UIAutomation.Activities'&semVerLevel=2.0.0'.",
+      "libraryId": "UiPath.UIAutomation.Activities"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPathTestPractice\\GetCarPrice\\.local",
+      "message": "Failed to retrieve information about 'UiPath.UIAutomation.Activities' from remote source 'http://myget.org/FindPackagesById()?id='UiPath.UIAutomation.Activities'&semVerLevel=2.0.0'.",
+      "libraryId": "UiPath.UIAutomation.Activities"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPathTestPractice\\GetCarPrice\\.local",
+      "message": "Failed to retrieve information about 'UiPath.UIAutomation.Activities.Runtime' from remote source 'http://myget.org/FindPackagesById()?id='UiPath.UIAutomation.Activities.Runtime'&semVerLevel=2.0.0'.",
+      "libraryId": "UiPath.UIAutomation.Activities.Runtime"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPathTestPractice\\GetCarPrice\\.local",
+      "message": "Failed to retrieve information about 'UiPath.UIAutomation.Activities.Runtime' from remote source 'http://myget.org/FindPackagesById()?id='UiPath.UIAutomation.Activities.Runtime'&semVerLevel=2.0.0'.",
+      "libraryId": "UiPath.UIAutomation.Activities.Runtime"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPathTestPractice\\GetCarPrice\\.local",
+      "message": "Failed to retrieve information about 'UiPath.Vision' from remote source 'http://myget.org/FindPackagesById()?id='UiPath.Vision'&semVerLevel=2.0.0'.",
+      "libraryId": "UiPath.Vision"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPathTestPractice\\GetCarPrice\\.local",
+      "message": "Failed to retrieve information about 'UiPath.Vision' from remote source 'http://myget.org/FindPackagesById()?id='UiPath.Vision'&semVerLevel=2.0.0'.",
+      "libraryId": "UiPath.Vision"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPathTestPractice\\GetCarPrice\\.local",
+      "message": "Failed to retrieve information about 'UiPath.ImageProcessing' from remote source 'http://myget.org/FindPackagesById()?id='UiPath.ImageProcessing'&semVerLevel=2.0.0'.",
+      "libraryId": "UiPath.ImageProcessing"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPathTestPractice\\GetCarPrice\\.local",
+      "message": "Failed to retrieve information about 'UiPath.ImageProcessing' from remote source 'http://myget.org/FindPackagesById()?id='UiPath.ImageProcessing'&semVerLevel=2.0.0'.",
+      "libraryId": "UiPath.ImageProcessing"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPathTestPractice\\GetCarPrice\\.local",
+      "message": "Failed to retrieve information about 'UiPath.OCR.Activities' from remote source 'http://myget.org/FindPackagesById()?id='UiPath.OCR.Activities'&semVerLevel=2.0.0'.",
+      "libraryId": "UiPath.OCR.Activities"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPathTestPractice\\GetCarPrice\\.local",
+      "message": "Failed to retrieve information about 'UiPath.OCR.Activities' from remote source 'http://myget.org/FindPackagesById()?id='UiPath.OCR.Activities'&semVerLevel=2.0.0'.",
+      "libraryId": "UiPath.OCR.Activities"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPathTestPractice\\GetCarPrice\\.local",
+      "message": "Failed to retrieve information about 'UiPath' from remote source 'http://myget.org/FindPackagesById()?id='UiPath'&semVerLevel=2.0.0'.",
+      "libraryId": "UiPath"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPathTestPractice\\GetCarPrice\\.local",
+      "message": "Failed to retrieve information about 'UiPath' from remote source 'http://myget.org/FindPackagesById()?id='UiPath'&semVerLevel=2.0.0'.",
+      "libraryId": "UiPath"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPathTestPractice\\GetCarPrice\\.local",
+      "message": "Failed to retrieve information about 'UiPath.UIAutomation.Activities.Runtime.Design' from remote source 'http://myget.org/FindPackagesById()?id='UiPath.UIAutomation.Activities.Runtime.Design'&semVerLevel=2.0.0'.",
+      "libraryId": "UiPath.UIAutomation.Activities.Runtime.Design"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPathTestPractice\\GetCarPrice\\.local",
+      "message": "Failed to retrieve information about 'UiPath.UIAutomation.Activities.Runtime.Design' from remote source 'http://myget.org/FindPackagesById()?id='UiPath.UIAutomation.Activities.Runtime.Design'&semVerLevel=2.0.0'.",
+      "libraryId": "UiPath.UIAutomation.Activities.Runtime.Design"
     },
     {
       "code": "NU1603",

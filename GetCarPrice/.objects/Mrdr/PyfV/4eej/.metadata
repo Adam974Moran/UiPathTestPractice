@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Объявления о продаже автомобилей в Бе",
+  "Type": "Screen",
+  "Id": "4eejUMalakW5esxOrTEK8g",
+  "Reference": "FNaK0PpuW0KP3kMiF099rg/4eejUMalakW5esxOrTEK8g",
+  "ParentRef": "FNaK0PpuW0KP3kMiF099rg/PyfVAXeTbkOuPJg8ub_QPg",
+  "Created": "2024-08-21T09:59:46.2584003Z",
+  "Updated": "2024-08-21T09:59:46.2584003Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -50,7 +50,8 @@
         "tableView": false,
         "key": "button1",
         "type": "button",
-        "input": true
+        "input": true,
+        "event": "OpenMinCarLinkTrigger"
       },
       {
         "type": "button",
